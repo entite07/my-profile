@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="eNTITE 07 — AI agent seller, website builder, and machine learning researcher. Deep in Python and JavaScript, studying deep learning and neural networks." />
+  <title>eNTITE 07 — AI Systems Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated background -->
+  <div class="bg-grid" id="bgGrid"></div>
+  <div class="noise"></div>
+
+  <!-- Nav -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">eNTITE<span class="accent">07</span></span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <div class="tag-line" id="tagline">
+        <span class="tag">AI Systems</span>
+        <span class="tag">Research</span>
+        <span class="tag">Web Architecture</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="name-prefix">I'm </span><span class="name-highlight">eNTITE 07</span>
+      </h1>
+      <p class="hero-bio">
+        AI agent seller, website builder, and machine learning researcher.<br/>
+        Deep in <span class="hl">Python</span> and <span class="hl">JavaScript</span> — studying deep learning and neural networks,<br/>
+        with <span class="hl">C++</span> on the horizon. Building at the edge of intelligence.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+        <a href="#focus" class="btn-ghost">Explore Work ↓</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="neural-net" id="neuralNet"></div>
+    </div>
+  </section>
+
+  <!-- Focus Areas -->
+  <section class="section" id="focus">
+    <div class="container">
+      <h2 class="section-title">Focus Areas</h2>
+      <div class="cards-grid">
+        <div class="card" data-delay="0">
+          <div class="card-icon">⬡</div>
+          <h3>AI Agent Development</h3>
+          <p>Designing, building, and deploying intelligent AI agents for real-world automation and decision-making pipelines.</p>
+        </div>
+        <div class="card" data-delay="100">
+          <div class="card-icon">◈</div>
+          <h3>Web Architecture</h3>
+          <p>Building scalable, performant, and elegant web systems — from backend APIs to polished frontends.</p>
+        </div>
+        <div class="card" data-delay="200">
+          <div class="card-icon">⬟</div>
+          <h3>ML / DL Research</h3>
+          <p>Actively studying machine learning and deep learning fundamentals — moving from research to applied models.</p>
+        </div>
+        <div class="card" data-delay="300">
+          <div class="card-icon">⬢</div>
+          <h3>Neural Network Study</h3>
+          <p>Hands-on learning of neural network architectures — CNNs, RNNs, transformers, and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="section section-alt" id="stack">
+    <div class="container">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="stack-grid">
+        <div class="stack-item active">
+          <span class="stack-icon">🐍</span>
+          <span class="stack-name">Python</span>
+          <span class="stack-status">Primary</span>
+        </div>
+        <div class="stack-item active">
+          <span class="stack-icon">⚡</span>
+          <span class="stack-name">JavaScript</span>
+          <span class="stack-status">Primary</span>
+        </div>
+        <div class="stack-item learning">
+          <span class="stack-icon">⚙️</span>
+          <span class="stack-name">C++</span>
+          <span class="stack-status">Expanding</span>
+        </div>
+        <div class="stack-item active">
+          <span class="stack-icon">🤖</span>
+          <span class="stack-name">AI Agents</span>
+          <span class="stack-status">Selling</span>
+        </div>
+        <div class="stack-item active">
+          <span class="stack-icon">🧠</span>
+          <span class="stack-name">Deep Learning</span>
+          <span class="stack-status">Studying</span>
+        </div>
+        <div class="stack-item active">
+          <span class="stack-icon">🕸️</span>
+          <span class="stack-name">Neural Networks</span>
+          <span class="stack-status">Researching</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Terminal Quote -->
+  <section class="section terminal-section">
+    <div class="container">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">entite07@ai:~</span>
+        </div>
+        <div class="terminal-body">
+          <p class="terminal-line"><span class="prompt">$</span> <span id="typewriter"></span><span class="cursor-blink">█</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <h2 class="section-title">Let's Build</h2>
+      <p class="contact-sub">Open to collaborations, consulting, and conversations about AI systems.</p>
+      <a href="mailto:ar0169241@gmail.com" class="btn-primary btn-large" id="contactBtn">
+        ar0169241@gmail.com
+      </a>
+      <p class="contact-note">Or just say hi — always happy to talk shop.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">eNTITE<span class="accent">07</span></span>
+      <span class="footer-copy">Building at the edge of intelligence.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
